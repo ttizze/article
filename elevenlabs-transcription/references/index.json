@@ -1,0 +1,35 @@
+{
+  "audio": "V-003.mp3",
+  "duration": 9060,
+  "note": "2時間31分の仏教法話",
+  "files": [
+    {
+      "id": "ground_truth",
+      "name": "正解データ",
+      "file": "samples/ground_truth.txt",
+      "chars": 80606,
+      "type": "ground_truth"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "file": "samples/elevenlabs.txt",
+      "chars": 128337,
+      "type": "stt"
+    },
+    {
+      "id": "whisper",
+      "name": "Whisper",
+      "file": "samples/whisper.txt",
+      "chars": 7800,
+      "type": "stt"
+    },
+    {
+      "id": "deepgram",
+      "name": "Deepgram",
+      "file": "samples/deepgram.txt",
+      "chars": 103842,
+      "type": "stt"
+    }
+  ]
+}
