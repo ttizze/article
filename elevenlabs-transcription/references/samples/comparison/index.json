@@ -1,0 +1,14 @@
+{
+  "files": [
+    { "id": "ground_truth", "name": "正解データ", "file": "01_ground_truth.txt", "chars": 80606, "type": "ground_truth" },
+    { "id": "deepgram", "name": "Deepgram", "file": "02_Deepgram.txt", "chars": 103842, "type": "stt" },
+    { "id": "whisper_no", "name": "Whisper (no prompt)", "file": "03_Whisper_no_prompt.txt", "chars": 7800, "type": "stt" },
+    { "id": "whisper_with", "name": "Whisper (with prompt)", "file": "04_Whisper_with_prompt.txt", "chars": 7389, "type": "stt" },
+    { "id": "elevenlabs", "name": "ElevenLabs", "file": "08_ElevenLabs.txt", "chars": 128337, "type": "stt" },
+    { "id": "hybrid_gpt4o", "name": "Hybrid GPT-4o", "file": "05_Hybrid_GPT4o.txt", "chars": 115423, "type": "corrected" },
+    { "id": "corrected_noterm", "name": "補正(用語辞書なし)", "file": "06_Corrected_noterm.txt", "chars": 125488, "type": "corrected" },
+    { "id": "corrected_plain", "name": "補正(plain)", "file": "07_Corrected_plain.txt", "chars": 126816, "type": "corrected" },
+    { "id": "elevenlabs_gpt", "name": "ElevenLabs + GPT", "file": "09_ElevenLabs_GPT.txt", "chars": 128387, "type": "corrected" },
+    { "id": "elevenlabs_gemini", "name": "ElevenLabs + Gemini", "file": "10_ElevenLabs_Gemini.txt", "chars": 128033, "type": "corrected" }
+  ]
+}
